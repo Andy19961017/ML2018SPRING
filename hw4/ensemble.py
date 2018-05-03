@@ -30,7 +30,7 @@ label=numpy.concatenate((label1,label2,label3),axis=1)
 print('l.shape',label.shape)
 label=numpy.argmax(label,axis=1)
 print('l.shape',label.shape)
-label=label%category_count
+label=label%7
 print('l.shape',label.shape)
 
 # output
