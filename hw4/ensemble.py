@@ -5,11 +5,6 @@ import pandas
 import keras
 from keras.models import load_model
 
-height = 48
-width  = 48
-channels = 1
-category_count = 7
-
 model1 = sys.argv[1]
 model2 = sys.argv[2]
 model3 = sys.argv[3]
