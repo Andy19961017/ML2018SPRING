@@ -14,16 +14,14 @@ model1 = sys.argv[1]
 model2 = sys.argv[2]
 model3 = sys.argv[3]
 
-test_file = '../data/test.csv'
-predict_file = "../prediction/ensemble_predict.csv"
+test_file='../data/test.csv'
+predict_file="../prediction/ensemble_predict.csv"
 
-print( 'Open Test File :' , test_file )
-temp = pandas.read_csv( test_file, sep=',').values
-x_test = numpy.zeros( ( temp.shape[0], height * width), dtype=float)
+temp=pandas.read_csv(test_file,sep=',').values
+x_test=numpy.zeros((temp.shape[0],48*48),dtype=float)
 for i in range(x_test.shape[0]):
-    x_test[i] = numpy.asarray( temp[i, 1].split(' '), dtype=float )
-x_test = x_test.reshape(-1, height, width, channels) / 255.0
-print('x_test(samples, height, width, channels):', x_test.shape)
+    x_test[i]=numpy.asarray(temp[i,1].split(' '),dtype=float)
+x_test=x_test.reshape(-1,48,48,1)/255.0
 
 print( 'Load Model:',model1,model2,model3 )
 model1 = load_model( '../model/'+model1 )
