@@ -1,0 +1,1 @@
+python3 my_mf_test.py $1 $2 $3 $4
