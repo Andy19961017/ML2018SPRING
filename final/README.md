@@ -1,7 +1,7 @@
 [testing command]
 
 If you want to predict on the given testing_data.csv     
-bash test.sh dataset/testing_data.csv output_file_path
+bash test.sh dataset/testing_data.csv output_file_path     
 If you want to predict on other testing data       
 bash test.sh testing_data_path output_file_path
 
