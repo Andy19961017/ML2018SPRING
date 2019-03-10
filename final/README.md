@@ -1,3 +1,12 @@
+A machine learning task to select the best response to given dialogs 
+==
+1.RNN is used in the model to compare sentence similarity.
+2.”Random data processing method” is invented to augment training data, boosting accuracy for 6 %.
+3.Detailed description is provided in Report.pdf
+
+
+
+
 [testing command]
 
 If you want to predict on the given testing_data.csv     
