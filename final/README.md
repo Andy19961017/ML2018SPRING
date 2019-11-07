@@ -8,9 +8,9 @@ Given the transcript of a conversation and 5 sentence candidates to choose, the 
 2.Ranked 1st out of 11 teams in the Kaggle competition. [Link](https://www.kaggle.com/c/ml-2018spring-final-tv-conversation/leaderboard). 
 
 ## Key Technical Details
-1.LSTM is used encode input sentences. 
-2.Cosine similarity is used to compare sentence similarity. Choose the most similar one. 
-2.”Random data processing method” is invented to augment training data, boosting accuracy for 6 %. 
+1.LSTM is used encode input sentences.  
+2.Cosine similarity is used to compare sentence similarity. Choose the most similar one.  
+2.”Random data processing method” is invented to augment training data, boosting accuracy for 6 %.  
 3.Detailed description is provided in [here](https://github.com/Andy19961017/ML2018SPRING/blob/master/final/Report.pdf). 
 
 ## Testing Command
