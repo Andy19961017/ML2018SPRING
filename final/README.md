@@ -4,7 +4,7 @@ A machine learning task to select the best response to given dialogs
 Given the transcript of a conversation and 5 sentence candidates to choose, the model can choose the sentence that is most likely to appear right next to the conversation. 
 
 ## Key Results
-1.Accuracy: ~53.5% (without ensemble), ~57.5% (ensemble). 
+1.Accuracy: ~53.5% (without ensemble), ~57.5% (ensemble).  
 2.Ranked 1st out of 11 teams in the Kaggle competition. [Link](https://www.kaggle.com/c/ml-2018spring-final-tv-conversation/leaderboard). 
 
 ## Key Technical Details
