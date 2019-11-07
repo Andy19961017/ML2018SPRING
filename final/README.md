@@ -1,9 +1,12 @@
 A machine learning task to select the best response to given dialogs 
 ==
 ## Task Description
-Given a Chinese dialog, the model can choose the sentence that is most likely to appear right next to the conversation. 
+Given the transcript of a conversation and 5 sentence candidates to choose, the model can choose the sentence that is most likely to appear right next to the conversation. 
 
 ## Key Results
+1.Accuracy: ~53.5% (without ensemble), ~57.5% (ensemble) 
+2.Ranked 1st out of 11 teams in the Kaggle competition. [Link](https://www.kaggle.com/c/ml-2018spring-final-tv-conversation/leaderboard) 
+
 1.RNN is used in the model to compare sentence similarity.
 2.”Random data processing method” is invented to augment training data, boosting accuracy for 6 %.
 3.Detailed description is provided in Report.pdf
