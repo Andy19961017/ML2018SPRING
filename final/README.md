@@ -14,10 +14,14 @@ Given the transcript of a conversation and 5 sentence candidates to choose, the 
 3.Detailed description is provided in [here](https://github.com/Andy19961017/ML2018SPRING/blob/master/final/Report.pdf). 
 
 ## Testing Command
-If you want to predict on the given testing_data.csv 
-```bash test.sh dataset/testing_data.csv output_file_path```
-If you want to predict on other testing data 
-```bash test.sh testing_data_path output_file_path```
+If you want to predict on the given testing_data.csv  
+```
+bash test.sh dataset/testing_data.csv output_file_path
+```
+If you want to predict on other testing data  
+```
+bash test.sh testing_data_path output_file_path
+```
 
 ## Imported Module
 ```
