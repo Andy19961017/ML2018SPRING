@@ -43,7 +43,7 @@ Details can be referred to [here](https://radimrehurek.com/gensim/models/word2ve
 </p>
 
 ## Discussion: Bag Of Word + DNN  vs  GRU + DNN
-In general, GRU are able to consider the order of the words in the sentence while Bag of Word cannot. Therefore, the GRU have higher accuracy.  
+In general, GRU is able to consider the order of the words in the sentence while Bag of Word cannot. Therefore, the GRU have higher accuracy.  
 
 Take these two sentences as examples.
 ```
