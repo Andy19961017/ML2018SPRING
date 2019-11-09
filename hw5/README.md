@@ -21,9 +21,11 @@ All training and testing data are parsed from Twitter.
 
 ## Technical Details
 ### Stage 1: Word Embedding
-Details can be referred to [here](https://radimrehurek.com/gensim/models/word2vec.html)
+Details can be referred to [here](https://radimrehurek.com/gensim/models/word2vec.html).  
 
 ### Stage 2: Sentiment Classification Model  
+#### Choice A: Bag Of Word + DNN  
+
 
 
 https://radimrehurek.com/gensim/models/word2vec.html
