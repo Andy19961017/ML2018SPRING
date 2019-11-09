@@ -22,7 +22,9 @@ All training and testing data are parsed from Twitter.
 ## Technical Details
 ### Stage 1: Word Embedding
 Details can be referred to [here](https://radimrehurek.com/gensim/models/word2vec.html).  
-<img align="center" src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/CBOW.png" width="400">
+<p align="center">
+<img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/CBOW.png" width="400">
+</p>
 
 ### Stage 2: Sentiment Classification Model  
 #### Choice A: Bag Of Word + DNN   
