@@ -16,15 +16,23 @@ All training and testing data are parsed from Twitter.
   - testing data：200k sentences  
 
 ## Key Results
-1.Accuracy: ~83% (without ensemble).  
+1.Accuracy: ~83.0% (without ensemble).  
 2.Ranked 10st out of 116 teams in the Kaggle competition. [Link](https://www.kaggle.com/c/ml-2018spring-hw5/leaderboard).
 
 ## Technical Details
 ### Stage 1: Word Embedding
 Details can be referred to [here](https://radimrehurek.com/gensim/models/word2vec.html).  
+![alt text](https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/CBOW.png)  
 
 ### Stage 2: Sentiment Classification Model  
-#### Choice A: Bag Of Word + DNN  
+#### Choice A: Bag Of Word + DNN   
+Accuracy: ~76.9%   
+![alt text](https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/BOW.png)
+
+#### Choice B: GRU + DNN  
+Accuacy: ~83.0%  
+![alt text](https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/GRU.png)  
+
 
 
 
