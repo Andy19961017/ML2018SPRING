@@ -15,6 +15,6 @@ I had a bad day... ==> negative
 
 ## Data
 All training and testing data are parsed from Twitter.
-  labeled training data: 200k sentences  
-  unlabeled training data: 1.2M sentences    
-  testing data：200k sentences  
+  - labeled training data: 200k sentences  
+  - unlabeled training data: 1.2M sentences    
+  - testing data：200k sentences  
