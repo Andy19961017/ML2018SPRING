@@ -1,4 +1,4 @@
-A machine learning task to select the best response to given dialogs 
+Dialog Selection 
 ==
 ## Task Description
 Given the transcript of a conversation and 5 sentence candidates to choose, the model can choose the sentence that is most likely to appear right next to the conversation. 
