@@ -30,13 +30,13 @@ Details can be referred to [here](https://radimrehurek.com/gensim/models/word2ve
 #### Choice A: Bag Of Word + DNN   
 Accuracy: ~76.9%   
 <p align="center">
-<img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/BOW.png" width="300">
+<img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/BOW.png" width="700">
 </p>
 
 #### Choice B: GRU + DNN  
 Accuacy: ~83.0%  
 <p align="center">
-<img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/GRU.png" width="300">
+<img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/GRU.png" width="700">
 </p>
 
 
