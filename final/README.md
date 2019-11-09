@@ -2,6 +2,7 @@ Dialog Selection
 ==
 ## Task Description
 Given the transcript of a conversation and 5 sentence candidates to choose, the model can choose the sentence that is most likely to appear right next to the conversation.  
+
 For example:
 ```
 How are you today?
@@ -26,6 +27,7 @@ The answer should be 3. Notice the real problems in this task is in Chinese inst
   - LSTM is used encode input sentences.  
   - Cosine similarity is used to compare sentence similarity.  
   - If the two sentences have high cosine similarity, they should appear right next to each other.  
+
 3.Parse training data into positive and negative pairs and train the model. ”Random data processing method” is invented to augment training data, boosting accuracy for 6 %.  
 4.Parse the testing data. Pair the diven conversation up with each option (resulting in 5 pairs per problem).  
 5.The pair with highest similarity should be the answer.  
