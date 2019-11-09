@@ -50,7 +50,7 @@ Take these two sentences as examples.
 A: Today is a good day, but it is hot. (negative)
 B: Today is hot, but it is a good day. (positive)
 ```
-For Bag of Word model, the two sentences are exactly the same. The sentiment score for them are both 0.66 (0 means negative sentiment and 1 means positive). For GRU model, however, the order of the words is considered. The two sentences are largely different. The sentiment score for them are ```0.15``` for A and ```0.97``` for B.
+For Bag of Word model, the two sentences are exactly the same. The sentiment score for them are both ```0.66``` (0 means negative sentiment and 1 means positive). For GRU model, however, the order of the words is considered. The two sentences are largely different. The sentiment score for them are ```0.15``` for A and ```0.97``` for B.
 
 ## Reference
 1. Rajat R., Alexis B., Honglak L., Benjamin P., Andrew N. (2007) Self-taught learning: transfer learning from unlabeled data.  
