@@ -22,7 +22,7 @@ All training and testing data are parsed from Twitter.
 ## Technical Details
 ### Stage 1: Word Embedding
 Details can be referred to [here](https://radimrehurek.com/gensim/models/word2vec.html).  
-![image|50x30](https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/CBOW.png)  
+![image, 20%](https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/CBOW.png)  
 
 ### Stage 2: Sentiment Classification Model  
 #### Choice A: Bag Of Word + DNN   
@@ -38,5 +38,3 @@ Accuacy: ~83.0%
 
 https://radimrehurek.com/gensim/models/word2vec.html
 
-
-![very good|512x397](//assets-meta-cdck-prod-meta.s3.dualstack.us-west-1.amazonaws.com/original/3X/0/3/03741c9f3eafd7fc8ccd791a6971a2c0d52783e4.jpg)
