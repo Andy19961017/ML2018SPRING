@@ -9,7 +9,7 @@ Great! And you?
 
 1. The movie is filmed in England
 2. Sunday afternoon
-3. Awesome
+3. I'm okay
 4. I am a lawyer
 5. Actions speak louder than words
 ```
@@ -20,10 +20,16 @@ The answer should be 3. Notice the real problems in this task is in Chinese inst
 2.Ranked 1st out of 11 teams in the Kaggle competition. [Link](https://www.kaggle.com/c/ml-2018spring-final-tv-conversation/leaderboard). 
 
 ## Key Technical Details
-1.LSTM is used encode input sentences.  
-2.Cosine similarity is used to compare sentence similarity. Choose the most similar one.  
-2.”Random data processing method” is invented to augment training data, boosting accuracy for 6 %.  
-3.Detailed description is provided in [here](https://github.com/Andy19961017/ML2018SPRING/blob/master/final/Report.pdf). 
+1.Train word embeddings with a large corpus.  
+2.Classification model architecture:
+  - Input two sentences, the conversation and the sentence right next to it.  
+  - LSTM is used encode input sentences.  
+  - Cosine similarity is used to compare sentence similarity.  
+  - If the two sentences have high cosine similarity, they should appear right next to each other.  
+3.Parse training data into positive and negative pairs and train the model. ”Random data processing method” is invented to augment training data, boosting accuracy for 6 %.  
+4.Parse the testing data. Pair the diven conversation up with each option (resulting in 5 pairs per problem).  
+5.The pair with highest similarity should be the answer.  
+6.Detailed description is provided [here](https://github.com/Andy19961017/ML2018SPRING/blob/master/final/Report.pdf). 
 
 ## Testing Command
 If you want to predict on the given testing_data.csv  
