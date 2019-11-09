@@ -27,18 +27,30 @@ Details can be referred to [here](https://radimrehurek.com/gensim/models/word2ve
 </p>
 
 ### Stage 2: Sentiment Classification Model  
-#### Choice A: Bag Of Word + DNN   
-Accuracy: ~76.9%   
+#### Choice A: Bag Of Word + DNN, Accuracy: ~76.9%     
 <p align="center">
 <img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/BOW.png" width="700">
 </p>
 
-#### Choice B: GRU + DNN  
-Accuacy: ~83.0%  
+#### Choice B: GRU + DNN, Accuacy: ~83.0%   
 <p align="center">
 <img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/GRU.png" width="700">
 </p>
 
+### Stage 3: Semi-supervised Training -- Self-training
+<p align="center">
+<img src="https://github.com/Andy19961017/ML2018SPRING/blob/master/hw5/images/SSL.png" width="700">
+</p>
+
+### Bag Of Word + DNN  vs  GRU + DNN
+In general, GRU are able to consider the order of the words in the sentence while Bag of Word cannot. Therefore, the GRU have higher accuracy.  
+
+Take these two sentences as examples.
+```
+A: Today is a good day, but it is hot. (negative)
+B: Today is hot, but it is a good day. (positive)
+```
+For Bag of Word model, the two sentences are exactly the same. The sentiment score for them are both 0.66 (0 means negative sentiment and 1 means positive). For GRU model, however, the order of the words is considered. The two sentences are largely different. The sentiment score for them are ```0.15``` for A and ```0.97``` for B.
 
 https://radimrehurek.com/gensim/models/word2vec.html
 
