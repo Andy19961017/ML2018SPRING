@@ -1,7 +1,19 @@
 Dialog Selection 
 ==
 ## Task Description
-Given the transcript of a conversation and 5 sentence candidates to choose, the model can choose the sentence that is most likely to appear right next to the conversation. 
+Given the transcript of a conversation and 5 sentence candidates to choose, the model can choose the sentence that is most likely to appear right next to the conversation.  
+For example:
+```
+How are you today?
+Great! And you?
+
+1. The movie is filmed in England
+2. Sunday afternoon
+3. Awesome
+4. I am a lawyer
+5. Actions speak louder than words
+```
+The answer should be 3. Notice the real problems in this task is in Chinese instead of English.  
 
 ## Key Results
 1.Accuracy: ~53.5% (without ensemble), ~57.5% (ensemble).  
